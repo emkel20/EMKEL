@@ -1,0 +1,256 @@
+
+body{
+    background-image: linear-gradient(to bottom, rgb(55, 0, 58), rgb(220, 19, 255));
+} 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+font-family:'roboto', sans-serif;
+scroll-behavior: smooth;
+}
+/* .container{
+width: 80%;
+margin: auto;
+} */
+
+.cover {
+	width: 30em;
+	size: cover;
+    position: static;
+    
+}
+.zone{
+	box-shadow: 0px 0px #fffdfd73 ;
+	background-color:rgb(55, 0, 58);
+	
+}
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+    size: cover;
+}
+.main-nav {
+	display: flex;
+	list-style: none;
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	
+}
+
+@media only screen and (max-width: 600px) {
+	.main-nav{
+		font-size: 0.6em;
+		padding: 0;
+	}
+}
+
+li {
+	padding: 20px;
+	padding-bottom: 16px;
+}
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	transition: all 0.8s ease-in-out;
+}
+.push {
+	margin-right: auto;
+	font-size: 25px;
+	padding-top: 10px;
+	text-transform: uppercase;
+	cursor: pointer;
+	color: #8f12c8;
+    transform: translate(12vh);
+
+}
+ul h3 li{
+	padding-left: 90px;
+	padding-right: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+nav{
+height: 80px;
+}
+
+h1{
+    text-transform: capitalize;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul{
+float:right;
+
+line-height: 80px;
+text-transform: capitalize;
+}
+nav ul li{
+display: inline-block;
+
+list-style: none;
+padding: 8px 12px;
+}
+nav ul li a{
+color: #ffffff;
+text-decoration: none;
+text-transform: capitalize;
+border-radius: 5px;
+transition: all 0.9s ease-in-out;
+}
+nav ul li a:hover{
+    color: #000000;
+    background-color: #ffffff;
+    transition: 0.4s ease-in-out;
+    transform: scale(1.1);
+    padding: 8px 13px;
+    border-radius: 20px;
+    }
+    .logo{
+        float: left;
+        line-height: 80px;
+        font-size: 25px;
+        color: #ffffff;
+        padding-right: 80px;
+        border-radius: 100%;
+        margin-right: 20%;
+        font-style: italic;
+        text-decoration: none;
+        text-decoration-line: none;
+        } */
+.great{
+justify-content: left;
+align-items: left;
+width: 50%;
+margin-top: 100px;
+text-align: left;
+transform: translate(14vh);
+height: fit-content;
+}
+.great .h1{
+font-size: 38px;
+color: rgba(255, 255, 255, 0.789);
+letter-spacing: 1.5px;
+font-weight: 900;
+margin-bottom: 100px;
+}
+.great p{
+font-size: 30px;
+color: #ffffff;
+line-height: 1.5;
+margin-bottom: 8px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.great .ex{
+color: rgb(255, 255, 255);
+padding: 15px 26px;
+letter-spacing: 1.5px;
+text-transform: capitalize;
+text-decoration: none;
+background-color: #ac00a6;
+border-radius: 30px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.mad{
+    margin-bottom: 300px;
+}
+.great .ex:hover{
+color: #000000;
+background-color: #ffffff;
+transition: 0.4s ease-in-out;
+padding: 16px 27px;
+}
+
+/* -----------skills---------- */
+.skills{
+    background-color: #c43bc2;
+    padding-bottom: 150px;
+}
+#set{
+    line-height: 300px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.485);
+}
+.list{
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+	margin-top: 20px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    width: 100%;
+}
+.box{
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 100px;
+    background-color: #ef70f3;
+    padding: 50px;
+    margin: 20px;
+
+}
+.list ul > li{
+    list-style: none;
+}
+
+/* ---------project---------- */
+
+.projects{
+    background-color: #855a40;
+}
+#tes{
+    line-height: 300px;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.673);
+}
+.stil{
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+	margin-top: 20px;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    width: 100%;
+}
+.xob{
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 100px;
+    background-color: #f6b778d6;
+    padding: 50px;
+    margin: 20px;
+
+}
+.xob ul li{
+    list-style: none;
+}
+ul li a img #p{
+   width: 40px;
+   height: 20px;
+   margin-top: 5000px;
+
+}
+
+
+
